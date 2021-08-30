@@ -301,7 +301,7 @@ class Home extends Component {
                   justifyContent: 'center',
                 }}>
                 <CtaItem>
-                  <ButtonLink to="/docs/getting-started.html" type="primary">
+                  <ButtonLink to="/docs/getting-started.html" type="success">
                     Get Started
                   </ButtonLink>
                 </CtaItem>

@@ -17,6 +17,7 @@
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-relay": "^0.0.19",
+    "firebase": "^9.0.0",
     "flow-bin": "^0.56.0",
     "gatsby": "^2.24.63",
     "gatsby-plugin-catch-links": "^2.0.0",
@@ -52,6 +53,7 @@
     "react-helmet": "^5.2.0",
     "react-live": "1.8.0-0",
     "remarkable": "^1.7.1",
+    "request": "^2.88.2",
     "request-promise": "^4.2.2",
     "rimraf": "^2.6.1",
     "slugify": "^1.2.1",
@@ -72,7 +74,7 @@
     "url": "git+https://github.com/orensrauch/Solveqa.com.git"
   },
   "scripts": {
-    "build": "gatsby clean && gatsby build",
+    "build": "gatsby build",
     "check-all": "npm-run-all prettier generate-ids --parallel lint flow",
     "ci-check": "npm-run-all prettier:diff --parallel lint flow",
     "dev": "gatsby develop -H 0.0.0.0",
