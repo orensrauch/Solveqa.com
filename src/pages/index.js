@@ -17,7 +17,7 @@ import {colors, media, sharedStyles} from 'theme';
 import loadScript from 'utils/loadScript';
 import createCanonicalUrl from 'utils/createCanonicalUrl';
 import {babelURL} from 'site-constants';
-import logoWhiteSvg from 'icons/logo-white.svg';
+import logoWhiteSvg from 'icons/background-header.png';
 
 class Home extends Component {
   state = {
@@ -80,7 +80,7 @@ class Home extends Component {
                 [media.greaterThan('xlarge')]: {
                   paddingTop: 95,
                   paddingBottom: 85,
-                  maxWidth: 1500, // Positioning of background logo
+                  maxWidth: 1070, // Positioning of background logo
                   marginLeft: 'auto',
                   marginRight: 'auto',
                   position: 'relative',
@@ -94,8 +94,8 @@ class Home extends Component {
                     backgroundImage: `url(${logoWhiteSvg})`,
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: '100% 100px',
-                    backgroundSize: '50% auto',
-                    opacity: 0.05,
+                    backgroundSize: '30% auto',
+                    opacity: 1.00,
                   },
                 },
               }}>

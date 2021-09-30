@@ -18,9 +18,9 @@ redirect_from:
   - "docs/environments.html"
 ---
 <img src="">
-This page is an overview of the React documentation and related resources.
+This page is an overview of the SolveQA Master Project documentation and related resources.
 
-**React** is a JavaScript library for building user interfaces. Learn what React is all about on [our homepage](/) or [in the tutorial](/tutorial/tutorial.html).
+**SolveQA** is a QA Software testing open source tutorial. Learn how to apply the Master Project [in the tutorial](/tutorial/tutorial.html).
 
 ---
 

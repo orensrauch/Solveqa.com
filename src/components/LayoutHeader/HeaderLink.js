@@ -30,7 +30,7 @@ const style = {
   transition: 'color 0.2s ease-out',
   paddingLeft: 15,
   paddingRight: 15,
-  fontWeight: 300,
+  fontWeight: 400,
 
   ':focus': {
     outline: 0,
